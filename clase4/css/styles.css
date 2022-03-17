@@ -1,0 +1,114 @@
+/*Tipo de selector universal
+*{
+    border: 1px solid chocolate;
+}
+*/
+
+/*Selector de etiqueta
+h1{
+    color: blue;
+}
+p{
+    color: aqua;
+    font-size: 30px;
+}
+*/
+/*selector descendente
+main h1{
+    color: blue;
+}
+
+footer p{
+    color: blueviolet;
+}
+*/
+/*Selector de id
+
+#encabezado {
+    background-color: blueviolet;
+}
+#Seccion_damas{
+    background-color: burlywood;
+}
+#seccion_descuentos h3{
+    color: orange;
+}
+*/
+/*Selector de clase
+.fondo_rosado{
+    background-color: deeppink;
+}
+.pie{
+    background-color: salmon;
+}
+*/
+#encabezado{
+    background-color: #48a7778c;
+    width: 900px;
+    height: 130px;
+    margin: auto;
+    text-align: center;
+    border-radius: 100px;
+}
+#encabezado img{
+    margin-top: 20px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+#principal {
+    background-color: rgb(117, 117, 216);
+    width: 900px;
+    height: 700px;
+    text-align: center;
+    margin: auto;
+}
+#Seccion_promociones{
+    background-color: darkgreen;
+    margin: auto;
+    width: 800px;
+    height: 300px;
+    background-image: url(../img/banner01.png);
+}
+#seccion_novedades{
+    margin: auto;
+    width: 800px;
+    height: 300px;
+    background-image: url(../img/banner03.jpg);
+}
+#seccion_descuentos{
+    margin: auto;
+    width: 900px;
+    height: 400px;
+    background-color: #ffdfaf;
+    text-align: center ;
+}
+#Seccion_damas{
+    background-color: #fdf5ca;
+    width: 800px;
+    height: 150px;
+    margin: auto;
+    background-image: url(../img/damas.jpg);
+}
+
+#Seccion_caballeros{
+    background-color: #fdf5ca;
+    width: 800px;
+    height: 150px;
+    margin: auto;
+    background-image: url(../img/caballeros.jpg);
+}
+
+footer{
+    background-color: #f2bb7b;
+    width: 900px;
+    height: 100px;
+    text-align: center;
+    border-radius: 100px;
+    margin: auto;
+
+}
+footer p{
+    line-height: 100px;
+}

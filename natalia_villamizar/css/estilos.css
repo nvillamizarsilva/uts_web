@@ -1,0 +1,48 @@
+#Chocolates{
+    font-weight: bold;
+}
+
+th, td{
+    padding-right: 5px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+th{
+    text-align: left;
+}
+#ln1{
+    text-align: center;
+}
+#Nombres{
+    font-weight: bold;
+}
+ table{
+     background-color: rgba(20, 114, 255, 0.527);
+     color: aliceblue;
+ }
+ header{
+     background-color:rgba(100, 159, 237, 0.521) ;
+
+ }
+ main section{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ body{
+    background-image: url('https://wallpaperaccess.com/full/3490462.jpg');
+    background-repeat: no-repeat;
+}  
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+footer{
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(252, 252, 252);
+    text-align: center;
+}

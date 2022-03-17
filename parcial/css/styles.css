@@ -1,0 +1,55 @@
+header{
+    display: flex;
+    background-color: #F0A83E ;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+a{
+    padding-left: 20px;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.perritos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.perritos nav{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    text-align: center;
+    background-color: #AED6F1;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+}
+.tabla{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+table{
+    background-color: #F0A83E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+}
+button{
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: url('https://lh3.googleusercontent.com/ytWZKEfkZpozAjmNW1r_Kmul8DU67BAl9UZPwCEr8g5_Is8cJLHcYLP71QTxuq_A8WLBDjbn40gmHvpanw5sw_38=w640-h400-e365-rj-sc0x00ffffff');
+}
